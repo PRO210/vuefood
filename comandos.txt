@@ -1,0 +1,96 @@
+//Git
+ git status
+ git add .
+ git add --all
+ git commit -m "Testando via console";
+
+ git push origin master (Enviar do branch local para ao remoto)
+ git push origin master --force (Força o envio do branch local para ao remoto)
+
+ git remote update #vai atualizar os branches locais com as copias do repositório online
+ git reset upstream/master
+ git pull -r upstream master
+
+ git log
+
+ git branch
+ git branch -a (Diz qual branch estou)
+ git branch feature-api    (cria a branch feature-api)
+
+ git checkout feature-api  (nós move para a branch feature-api)
+ git checkout master
+
+ git merge feature-api     (traz as alterações da branch feature-api)
+ git merge upgrade-to-7x    (traz as alterações da branch feature-api)
+ git merge master
+
+ git branch -D feature-api (Apagar um branch local)
+ git push origin --delete feature-api (Apagar um branch remoto)
+ git branch -dr origin/feature-api
+//
+
+//VueFood   //VueFood   //VueFood   //VueFood
+
+sudo apt install nodejs
+nodejs --version
+//
+sudo apt install npm
+npm --version
+//
+https://drive.google.com/open?id=1m_TilZ2v3fkUP3BXWUIF9Aqb_hLLJDkq
+https://drive.google.com/drive/folders/1m_TilZ2v3fkUP3BXWUIF9Aqb_hLLJDkq
+https://vuejs.org/
+https://cli.vuejs.org/
+sudo npm install -g @vue/cli
+npm config set scripts-prepend-node-path true(problema de path)
+vue --version
+//
+vue create vuefood ou vue ui
+//
+cd Workcspace/vue/vuefood
+npm fund
+npm run serve
+//
+npm install bootstrap jquery popper.js
+npm uninstall core-js
+npm cache clean -f
+//
+https://router.vuejs.org/
+npm install vue-router
+
+npm install vuex --save
+
+https://github.com/axios/axios
+npm install axios
+
+git remote add origin https://github.com/PRO210/vuefood.git
+//
+//Tratamento de erros
+https://www.npmjs.com/package/vue-toastify
+npm i vue-toastify
+
+ACTION carrega os dados
+    STATE recebe os dados através de uma propriedade
+        MUTATION altera os dados do STATE (esses dados vem da API)
+
+Na página chama-se o STATE em questão através dos métodos
+
+vueproandre21@hotmail.com
+12345678
+teste
+
+Alterar a porta 
+https://www.it-swarm-pt.tech/pt/vue.js/como-alterar-o-numero-da-porta-no-projeto-vue-cli/835536515/#:~:text=Voc%C3%AA%20pode%20alterar%20a%20porta,Voc%C3%AA%20pode%20conseguir%20isso.
+
+https://developer.android.com/studio/run/emulator-acceleration?utm_source=android-studio#vm-linux
+
+https://tiagoaguiar.co/android-studio-ubuntu-linux-como-instalar
+
+https://tecnobert.com.br/2020/06/como-instalar-o-sdk-dart-no-ubuntu-e-derivados.html
+
+flutter doctor --android-licenses
+flutter
+flutter doctor
+whoami (usuario)
+echo $PATH
+https://www.youtube.com/watch?v=SeuUO0Pvbd0
